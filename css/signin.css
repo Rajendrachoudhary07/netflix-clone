@@ -1,0 +1,163 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    margin: 1.4rem 2.5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.form {
+    padding: 10px 20px;
+    max-width: 350px;
+    margin-top: 3rem;
+    font-style: bold;
+}
+
+.form h1 {
+    font-size: 1.8em;
+    margin-bottom: 16px;
+    color: #FFF;
+
+}
+
+
+.form-field input {
+    border:none;
+    background-color: #333333;
+    border-radius: 3px;
+    height: 50px;
+    margin: .6rem 0;
+    padding: 1rem;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn input{
+    background-color:  #e50914;
+    width: 100%;
+    height: 50px;
+    margin-top:2rem;
+    margin-bottom: .8rem;
+    font-size: 1.3rem;
+    color: #8c8c8c;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.pass-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.check input{
+    width: 20px;
+    margin: 0;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(114, 113, 113);
+
+}
+
+.help span{
+    color: rgb(114, 113, 113);
+}
+
+
+.outher-section{
+    margin: 5rem 0;
+    
+
+}
+
+.outher-section p{
+    color: #515151;
+    margin: 1rem 0;
+}
+
+.outher-section a{
+    color: rgb(177, 176, 176);
+    text-decoration: none;
+}
+
+
+.footer{
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-footer p{
+    padding: 1rem;
+    color: #8c8c8c;
+}
+
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-self: flex-start;
+
+
+}
+
+.footer-links li{
+    margin: 1rem;
+}
+
+
+.footer-links li a{
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #8c8c8c;
+}
+
+
+@media screen and (max-width:450px) {
+    header{
+        margin: 1rem;
+    }
+
+    nav img{
+        width: 80px;
+        margin:0;
+    }
+
+    .form {
+        padding:0px 20px;
+        min-width: 400px;
+        margin:0 1rem;
+        font-style: bold;
+    }
+
+  
+}
